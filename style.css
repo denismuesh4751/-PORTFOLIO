@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    background-image: url("pexels-tima-miroshnichenko-5380591.jpg");
+    background-size: cover;       
+    background-position: center;  
+    background-repeat: no-repeat; 
+}
+
+/* Header */
+header {
+    background: #0a192f;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+/* Navigation */
+nav {
+    background: #112240;
+    text-align: center;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #64ffda;
+}
+
+/* Sections */
+.section {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+/* Homepage */
+#home {
+    background-color: skyblue;  /* dark navy blue */
+    color: white;
+}
+
+/* Childhood Section */
+#childhood {
+    background-color: #112240;  /* slightly lighter navy */
+    color: white;
+}
+
+/* Education Section */
+#education {
+    background-color: #1f2a44;  /* more muted blue */
+    color: white;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #f0f4f8;  /* light gray for contrast */
+    color: black;
+}
+
+/* Future Aspirations Section */
+#future {
+    background-color: #0a3d62;  /* tealish dark */
+    color: white;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #1c1c1c;  /* dark gray */
+    color: white;
+}
+
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px;
+    background: #0a192f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #64ffda;
+    color: black;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0a192f;
+    color: white;
+    margin-top: 30px;
+}
+
+/* Animation */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 1s ease-in-out;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
